@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	width: 50%;
+	margin: 2% auto 2%;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 2%;
+	padding: 5%;
+}
+
+header{
+	text-align: center;
+	color: #00DD00;
+}
+
+/* barra pulsanti */
+nav{
+	width: 100%;
+	text-align: center;
+	background-color: #00DD00;
+	padding: 1%;
+}
+
+input[type="button"]{
+	padding: 2px;
+}
+/* -------------------- */
+
+/* info monopattini */
+main > section{
+	color: white;
+	margin-top: 2%;
+}
+
+.nome{
+	font-weight:bold;
+	font-size: 24px;
+}
+
+.indirizzo:before {
+  content: "\21A6";
+}
+/* -------------------- */
+
+/* barra di carica */
+hr{
+	height: 28px;
+	border-radius: 7px;
+}
+
+.gino{
+	width: 33%;
+	background-color: #F5B453;
+}
+
+.mike{
+	width: 60%;
+	background-color: #1EC31E;
+}
+
+.fede{
+	width: 15%;
+	background-color: #BE4141;
+}
+/* -------------------- */
